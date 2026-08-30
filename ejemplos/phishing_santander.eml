@@ -1,0 +1,32 @@
+From: "Banco Santander - Seguridad" <soporte@santander-verificacion.top>
+Reply-To: soporte@atencion-clientes.xyz
+Return-Path: <bounce@mailrelay-service.ru>
+To: cliente@ejemplo.com
+Subject: URGENTE: Tu cuenta ha sido bloqueada - Verifica tus datos en 24 horas
+Date: Sat, 29 Aug 2026 03:14:22 +0000
+Authentication-Results: mx.ejemplo.com; spf=fail smtp.mailfrom=santander-verificacion.top; dkim=fail; dmarc=fail
+Received: from mail-relay-9.suspicious-host.ru (unknown [185.23.44.109])
+    by mx.ejemplo.com; Sat, 29 Aug 2026 03:14:20 +0000
+Received: from internal.santander-verificacion.top (localhost [127.0.0.1])
+    by mail-relay-9.suspicious-host.ru; Sat, 29 Aug 2026 03:14:18 +0000
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUNDARY123"
+
+--BOUNDARY123
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Estimado cliente,</p>
+<p>Hemos detectado actividad sospechosa. Tu cuenta sera <b>suspendida</b> en 24 horas
+si no confirmas ahora tus datos.</p>
+<p><a href="https://185.23.44.109/login/verify">Verifica tu cuenta aqui</a></p>
+<p>Tambien puedes acceder mediante este enlace corto: <a href="https://bit.ly/3xSantander">bit.ly/3xSantander</a></p>
+</body></html>
+
+--BOUNDARY123
+Content-Type: application/octet-stream; name="factura.pdf.exe"
+Content-Disposition: attachment; filename="factura.pdf.exe"
+Content-Transfer-Encoding: base64
+
+VGVzdCBhdHRhY2htZW50IGNvbnRlbnQ=
+--BOUNDARY123--
