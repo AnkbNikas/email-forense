@@ -1,0 +1,44 @@
+{
+  "archivo": "fixtures/phishing_santander.eml",
+  "cabeceras": {
+    "remitente": "Banco Santander - Seguridad <soporte@santander-verificacion.top>",
+    "reply_to": "soporte@atencion-clientes.xyz",
+    "return_path": "<bounce@mailrelay-service.ru>",
+    "dominio_from": "santander-verificacion.top",
+    "num_saltos_received": 2,
+    "hallazgos": [
+      "El dominio de 'Reply-To' (atencion-clientes.xyz) no coincide con el de 'From' (santander-verificacion.top). Las respuestas irían a un dominio distinto del que aparenta enviar el correo.",
+      "El dominio de 'Return-Path' (mailrelay-service.ru) no coincide con el de 'From' (santander-verificacion.top).",
+      "SPF ha fallado (fail) según la cabecera Authentication-Results — indicio fuerte de suplantación.",
+      "DKIM ha fallado (fail) según la cabecera Authentication-Results — indicio fuerte de suplantación.",
+      "DMARC ha fallado (fail) según la cabecera Authentication-Results — indicio fuerte de suplantación."
+    ],
+    "puntuacion": 21
+  },
+  "urls": {
+    "https://bit.ly/3xSantander": {
+      "hallazgos": [
+        "'https://bit.ly/3xSantander' usa un acortador de enlaces (bit.ly), oculta el destino real."
+      ],
+      "puntuacion": 2
+    },
+    "https://185.23.44.109/login/verify": {
+      "hallazgos": [
+        "'https://185.23.44.109/login/verify' apunta a una IP en lugar de un dominio."
+      ],
+      "puntuacion": 3
+    }
+  },
+  "adjuntos_hallazgos": [
+    "Adjunto 'factura.pdf.exe': extensión ejecutable (.exe) — alto riesgo.",
+    "Adjunto 'factura.pdf.exe': doble extensión — técnica para disfrazar un ejecutable como si fuera un documento (ej. 'factura.pdf.exe')."
+  ],
+  "urgencia_detectada": [
+    "urgente",
+    "urgent",
+    "bloqueada",
+    "24 horas"
+  ],
+  "puntuacion_total": 36,
+  "riesgo": "ALTO"
+}
