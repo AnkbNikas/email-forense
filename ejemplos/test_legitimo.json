@@ -1,0 +1,17 @@
+{
+  "archivo": "fixtures/legitimo.eml",
+  "cabeceras": {
+    "remitente": "Nieves Casquero <nieves@nievescasquero.github.io>",
+    "reply_to": "",
+    "return_path": "",
+    "dominio_from": "nievescasquero.github.io",
+    "num_saltos_received": 1,
+    "hallazgos": [],
+    "puntuacion": 0
+  },
+  "urls": {},
+  "adjuntos_hallazgos": [],
+  "urgencia_detectada": [],
+  "puntuacion_total": 0,
+  "riesgo": "BAJO"
+}
