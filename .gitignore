@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+informe_email*
+.DS_Store
