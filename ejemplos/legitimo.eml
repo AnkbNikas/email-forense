@@ -1,0 +1,17 @@
+From: "Nieves Casquero" <nieves@nievescasquero.github.io>
+To: cliente@ejemplo.com
+Subject: Presupuesto auditoria de seguridad - Agosto 2026
+Date: Fri, 28 Aug 2026 10:00:00 +0000
+Authentication-Results: mx.ejemplo.com; spf=pass smtp.mailfrom=nievescasquero.github.io; dkim=pass; dmarc=pass
+Received: from mail.google.com (mail.google.com [64.233.160.27])
+    by mx.ejemplo.com; Fri, 28 Aug 2026 10:00:00 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hola,
+
+Adjunto el presupuesto solicitado para la auditoria de ciberseguridad.
+Quedo a tu disposicion para cualquier consulta.
+
+Un saludo,
+Nieves
